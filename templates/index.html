@@ -28,17 +28,19 @@
       </div>
 
       <div id="image-preview"></div>
-      <img id="camera-output"/>
+      <img id="camera-output" />
 
       <div class="button_analyze">
         <button class="button">Analyze Now</button>
-        <button id="viewCam" class="camera"><i class="bx bx-camera"></i></button>
+        <button id="viewCam" class="camera">
+          <i class="bx bx-camera"></i>
+        </button>
       </div>
       <div id="cam_view">
-        <video  id="camera-view" autoplay playsinline></video>
-        <button id="shutter"><i class='bx  bx-shutter'></i> </button>
+        <video id="camera-view" autoplay playsinline></video>
+        <button id="shutter"><i class="bx bx-shutter"></i></button>
         <canvas id="canvas-output" style="display: none"></canvas>
-    </div>
+      </div>
     </section>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
   </body>
