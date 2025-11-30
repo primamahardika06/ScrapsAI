@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font_1: "Jersey 15", sans-serif;
+  --font_2: "Manrope", sans-serif;
+  --font_3: "Poppins", sans-serif;
+}
+
+body{
+    background-color: green;
+}
+
+.box_analyze {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10vh;
+  gap: 12px;
+  font-family: var(--font_1);
+  background-color: white;
+  margin: 120px 420px;
+  padding: 48px 32px;
+  border-radius:12px;
+}
+
+.box_upload {
+  border-style: dashed; /* Atau dotted; */
+  border-width: 2px;
+  border-color: rgb(6, 211, 6);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  gap: 8px;
+}
+
+.box_upload .bx{
+    font-size: 40px;
+}
+
+.button_analyze {
+  display: flex;
+  gap: 12px;
+}
+.button_analyze .button {
+  padding: 12px 185px;
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+}
+
+.button_analyze .camera {
+  padding: 12px 12px;
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+}
+
+#cam_view {
+  display: none;
+  /* position: absolute; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 800px;
+  height: 500px;
+  margin-top: 30vh;
+}
+
+video {
+  width: 500px;
+  height: 400px;
+}
+
+#shutter {
+  padding: 12px 12px;
+  border-radius: 50%;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+}
+
+#shutter .bx {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* #camera-output{
+    width: 400px;
+    height: 200px;
+} */
